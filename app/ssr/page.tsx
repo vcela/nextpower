@@ -1,5 +1,4 @@
-
-export const revalidate = 60
+export const revalidate = 0
 
 const fetchTodos = async () => {
   const res = await fetch("https://jsonplaceholder.typicode.com/todos")
